@@ -967,6 +967,14 @@ img {
   padding-right: 161px;
 }
 
+.btn--submit:hover {
+  border-color: black;
+}
+
+.btn--submit:focus {
+  border-color: blue;
+}
+
 .fftsurname {
   padding: 55px 0px;
 }
