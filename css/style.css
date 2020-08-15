@@ -1084,7 +1084,9 @@ img {
 }
 
 .form__field-checkbox {
-  padding: 15px 20px;
+  padding: 0px 20px;
+  -ms-flex-preferred-size: calc(50% - 200px);
+  flex-basis: calc(50% - 200px);
 }
 
 .form__checkbox-label {
@@ -1224,7 +1226,7 @@ input[type='radio']:checked + .fake2::before {
   .iphone-screen-mobile {
     position: absolute;
     bottom: -7px;
-    left: 50px;
+    left: calc(50% - 350px);
   }
 
   .advantages__research-lead {
